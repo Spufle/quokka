@@ -164,18 +164,19 @@ a.button:hover {
 @media screen and (max-width: 768px) {
     .hero-container {
         grid-template-columns: 1fr;
-        padding: 5rem;
+        padding: 2rem;
         text-align: center; /* Center text */
-    }
-
-    .column-left, .column-right {
-        padding: 1rem;
         justify-content: center; /* Center content vertically */
         align-items: center; /* Center content horizontally */
     }
 
+    .column-left, .column-right {
+        padding: 1rem;
+    }
+
     .column-left {
         align-items: center; /* Center text horizontally */
+        margin-top: 80px; /* Add margin to push text below navbar */
     }
 
     .navbar {
