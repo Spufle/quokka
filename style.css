@@ -1,5 +1,5 @@
 body {
-    background: #fdcc04;
+    background: #A7C7E7;
 }
 
 * {
@@ -11,7 +11,7 @@ body {
 
 nav {
     height: 80px;
-    background: #fdcc04;
+    background: #A7C7E7;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,7 +61,7 @@ nav a:hover {
 
 .hero {
     padding-top: 50px;
-    background: #fdcc04;
+    background: #A7C7E7;
 }
 
 .hero-container {
@@ -95,7 +95,7 @@ button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: #fdcc04;
+    color: #A7C7E7;
     background: #000;
     cursor: pointer;
     border-radius: 50px;
@@ -125,7 +125,7 @@ button:hover {
     height: 100vh; /* Full viewport height */
     text-align: center;
     padding: 2rem 1rem; /* Adjusted padding */
-    background: #fdcc04;
+    background: #A7C7E7;
 }
 
 .onas-container {
